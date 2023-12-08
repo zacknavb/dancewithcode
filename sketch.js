@@ -895,6 +895,7 @@ function mouseClicked() {
   //Home
   if (mouseX >= width/2-150 && mouseX <= width/2+150 && mouseY >= height/2+270 && mouseY <= height/2+370 && scene == 4) {
     scene = 0;
+    score = 0;
   }
   //Close Home
   //Volume Buttons
